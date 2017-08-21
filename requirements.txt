@@ -1,0 +1,5 @@
+h5py==2.7.0
+imageio==2.2.0
+Pillow==4.2.1
+pygame==1.9.3
+plaidml-keras>=0.1.0a5
