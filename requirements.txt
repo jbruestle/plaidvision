@@ -3,3 +3,4 @@ imageio>=2.2.0
 Pillow>=4.2.1
 pygame>=1.9.3
 plaidml-keras>=0.1.0a5
+opencv-python>=3.3.0.10
