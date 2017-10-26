@@ -124,7 +124,7 @@ class Compositor:
         self._tgt.blit(surface, (hoff, voff))
         # Print some text explaining what we think the image contains, using some
         # contrasting colors for a little drop-shadow effect.
-        captions = sorted([self.make_caption(x) for x in predictions])
+        captions = [self.make_caption(x) for x in predictions]
         for (i, caption) in enumerate(captions):
             self.blit_prediction(i, caption)
         # Print the FPS
